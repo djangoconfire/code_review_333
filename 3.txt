@@ -1,0 +1,19 @@
+final answer will be -- 16
+
+var funny=weird(2)
+
+here it weird function will return function (closure)
+
+------CLosure....
+
+return function(y){
+	return x+y ++tmp
+}
+
+
+now, 
+var final_answer=funny(10)
+++tmp --> first value will be increamented from 3 to 4 and the it assign to tmp .
+
+so, final_answer= 16. 
+

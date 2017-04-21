@@ -1,0 +1,9 @@
+CSS Reseting: 
+
+CSS resets aim to remove all built-in browser styling.
+Standard elements like H1-6, p, strong etc.
+
+Normalize Css:
+
+It aims to make built-in browser styling consistent across browsers.
+ Elements like H1-6 will appear bold etc.

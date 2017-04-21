@@ -1,0 +1,27 @@
+1. person.intro()
+
+It will print Hello I anm John.
+
+First Person Method will be called with parameter name and in function body it set name to Passed parameter value.
+
+this.name=name // here john
+
+Then Person .prototype,intro= function(){
+	console.log("Hello i am " + this.name)
+}
+
+
+2. person.intro.apply()
+
+it will print Hello I am john.
+
+apply function accept some array like object as input but here it accept nothing. so here it does not make any change .
+
+sane as person.intro();
+
+
+3. person.intro.apply({'name':''jack})
+
+now it will print Hello I am jack.
+
+4. var name="jim" ; person.intro.apply(null);
